@@ -1,0 +1,110 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    color:ivory;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, .h1, .h2, .h3 {
+    font-family: "Electrolize", sans-serif;
+    color:black;
+}
+
+footer{
+    background-color: rgb(33,37,41);
+    font-size: 12px;
+}
+
+.primaSezione{
+    background-image: url(./media/bg-1.jpg);
+}
+
+.terzaSezione{
+    background-image: url(./media/bg-2.jpg);
+}
+
+.secondaSezione, .quartaSezione{
+    background-color: rgb(27,21,64);
+}
+
+.quintaSezione{
+    background-image: url(./media/bg-3.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.modal-body{
+    background-color: rgb(27,21,64);
+}
+
+.logo{
+    width: 100px;
+    height:auto;
+}
+
+.aulab-future{
+    width: 200px;
+}
+
+.docente{
+    width:170px;
+}
+
+.grande{
+    font-size: 40px;
+}
+
+.medio{
+    font-size:25px;
+}
+
+.medioLow{
+    font-size:18px;
+}
+
+.piccolo{
+    font-size:12px;
+}
+
+.titolo{
+    color:yellow;
+}
+
+.yellow{
+    color:yellow;
+    border-color:yellow;
+    background-color:transparent;
+}
+
+.yellow:hover {
+    background-color: yellow;   
+    color:black;       
+  }
+
+.wolley{
+    color: black;
+    border-color:yellow;
+    background-color:yellow;
+}
+
+.wolley:hover {
+    background-color: transparent;   
+    color:yellow;
+    border-color: yellow;         
+  }
+
+  .form-control{
+    background-color: rgb(27,21,64);
+    border-bottom: 2px solid rgb(179,37,187);
+    border-right: none;
+    border-top: none;
+    border-left:none;
+    border-radius:0;
+    font-size:11px;
+  }
+
+  .form-control::placeholder {
+    color: rgb(115,111,111);
+    opacity: 1; /* per compatibilità con Firefox */
+  }
